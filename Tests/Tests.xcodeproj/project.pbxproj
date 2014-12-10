@@ -11,6 +11,7 @@
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
 		14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418391A019A1500636FD6 /* LICENSE.md */; };
 		14C4183E1A019A1500636FD6 /* NSManagedObject-HYPAttribute.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183A1A019A1500636FD6 /* NSManagedObject-HYPAttribute.podspec */; };
+		14EAA8CE1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAA8CD1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		14C418391A019A1500636FD6 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C4183A1A019A1500636FD6 /* NSManagedObject-HYPAttribute.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NSManagedObject-HYPAttribute.podspec"; path = "../NSManagedObject-HYPAttribute.podspec"; sourceTree = "<group>"; };
 		14C4183B1A019A1500636FD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14EAA8CC1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+HYPAttribute.h"; sourceTree = "<group>"; };
+		14EAA8CD1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+HYPAttribute.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		14C418371A01974300636FD6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				14EAA8CC1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.h */,
+				14EAA8CD1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EAA8CE1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m in Sources */,
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
