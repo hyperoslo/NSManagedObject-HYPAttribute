@@ -20,7 +20,12 @@
 
 - (BOOL)hyp_attributeExists:(NSString *)attribute
 {
-    return ([self.entity propertiesByName][attribute]) ? YES : NO;
+    return ([self.entity propertiesByName][attribute]);
+}
+
+- (NSArray *)hyp_attributeNames
+{
+    return [[self.entity propertiesByName] allKeys];
 }
 
 #pragma mark - Private methods
