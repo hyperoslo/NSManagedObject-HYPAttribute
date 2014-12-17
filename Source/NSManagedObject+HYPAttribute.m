@@ -2,7 +2,7 @@
 
 @implementation NSManagedObject (HYPAttribute)
 
-- (NSString *)hyp_attributeClass:(NSString *)attribute
+- (NSString *)hyp_attributeClassName:(NSString *)attribute
 {
     NSAttributeDescription *attributeDescription = [self attributeDescriptionForAttribute:attribute];
     if (!attributeDescription) return nil;
