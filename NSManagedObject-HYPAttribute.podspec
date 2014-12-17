@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "NSManagedObject-HYPAttribute"
 s.version          = "0.1"
-s.summary          = "Helpers for evaluating a NSManagedObject's attribute"
+s.summary          = "Helpers for evaluating NSManagedObject's attributes"
 s.homepage         = "https://github.com/hyperoslo/NSManagedObject-HYPAttribute"
 s.license          = 'MIT'
 s.author           = { "Hyper AS" => "teknologi@hyper.no" }
