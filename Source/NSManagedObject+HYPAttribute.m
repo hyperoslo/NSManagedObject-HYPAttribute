@@ -2,7 +2,7 @@
 
 @implementation NSManagedObject (HYPAttribute)
 
-- (NSString *)hyp_attributeClass:(NSString *)attribute
+- (NSString *)hyp_attributeClassName:(NSString *)attribute
 {
     NSAttributeDescription *attributeDescription = [self attributeDescriptionForAttribute:attribute];
     if (!attributeDescription) return nil;
@@ -20,7 +20,12 @@
 
 - (BOOL)hyp_attributeExists:(NSString *)attribute
 {
-    return ([self.entity propertiesByName][attribute]) ? YES : NO;
+    return ([self.entity propertiesByName][attribute]);
+}
+
+- (NSArray *)hyp_attributeNames
+{
+    return [[self.entity propertiesByName] allKeys];
 }
 
 #pragma mark - Private methods
