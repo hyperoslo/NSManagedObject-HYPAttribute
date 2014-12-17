@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140ACC571A4172280030F020 /* Tests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 140ACC551A4172280030F020 /* Tests.xcdatamodeld */; };
+		140ACC5A1A41730F0030F020 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 140ACC591A41730F0030F020 /* User.m */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
 		14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418391A019A1500636FD6 /* LICENSE.md */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140ACC561A4172280030F020 /* Tests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tests.xcdatamodel; sourceTree = "<group>"; };
+		140ACC581A41730F0030F020 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		140ACC591A41730F0030F020 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		14B564721A06D87B00342CDA /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C418261A01919C00636FD6 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C4182C1A01919C00636FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +64,9 @@
 		14C4182A1A01919C00636FD6 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				140ACC551A4172280030F020 /* Tests.xcdatamodeld */,
+				140ACC581A41730F0030F020 /* User.h */,
+				140ACC591A41730F0030F020 /* User.m */,
 				14C4182D1A01919C00636FD6 /* Tests.m */,
 				14C4182B1A01919C00636FD6 /* Supporting Files */,
 			);
@@ -164,8 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140ACC5A1A41730F0030F020 /* User.m in Sources */,
 				14EAA8CE1A388DD000B8C9E8 /* NSManagedObject+HYPAttribute.m in Sources */,
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
+				140ACC571A4172280030F020 /* Tests.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +318,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		140ACC551A4172280030F020 /* Tests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				140ACC561A4172280030F020 /* Tests.xcdatamodel */,
+			);
+			currentVersion = 140ACC561A4172280030F020 /* Tests.xcdatamodel */;
+			path = Tests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 14C418121A01919C00636FD6 /* Project object */;
 }
