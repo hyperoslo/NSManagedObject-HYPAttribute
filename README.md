@@ -7,7 +7,11 @@
 
 ## Usage
 
-`<API>`
+```objc
+- (NSString *)hyp_attributeClass:(NSString *)attribute;
+- (NSAttributeType)hyp_attributeType:(NSString *)attribute;
+- (BOOL)hyp_attributeExists:(NSString *)attribute;
+```
 
 ## Installation
 
