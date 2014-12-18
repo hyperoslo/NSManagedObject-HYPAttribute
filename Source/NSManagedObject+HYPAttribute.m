@@ -20,7 +20,7 @@
 
 - (BOOL)hyp_attributeExists:(NSString *)attribute
 {
-    return ([self.entity propertiesByName][attribute]);
+    return ([self.entity propertiesByName][attribute] != nil);
 }
 
 - (NSArray *)hyp_attributeNames
